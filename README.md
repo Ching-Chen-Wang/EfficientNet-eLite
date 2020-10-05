@@ -1,6 +1,10 @@
 # EfficientNet-eLite
 pytorch implementation for paper [EfficientNet-eLite](https://arxiv.org/abs/2009.07409) 
 
+EfficientNet-eLite: Extremely Lightweight and Efficient CNN Models for Edge Devices by Network Candidate Search
+
+![image](https://github.com/Ching-Chen-Wang/EfficientNet-eLite/blob/master/parameter.pnghttps://github.com/Ching-Chen-Wang/EfficientNet-eLite/blob/master/parameter.png)
+
 ## Environment
 ###Anaconda 4.7.12
 
