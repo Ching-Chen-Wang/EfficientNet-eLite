@@ -1,5 +1,5 @@
 # EfficientNet-eLite
-pytorch implementation for paper [EfficientNet-eLite](https://arxiv.org/abs/2009.07409) 
+Pytorch implementation for paper [EfficientNet-eLite](https://arxiv.org/abs/2009.07409) 
 
 EfficientNet-eLite: Extremely Lightweight and Efficient CNN Models for Edge Devices by Network Candidate Search
 
