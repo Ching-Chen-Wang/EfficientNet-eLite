@@ -40,13 +40,13 @@ EfficientNet-eLite: Extremely Lightweight and Efficient CNN Models for Edge Devi
 ## Start training a model
 ### Example for EfficientNet-eLite 9 
 $ bash run.sh
+```
+source ~/miniconda3/etc/profile.d/conda.sh 
 
-&nbsp; source ~/miniconda3/etc/profile.d/conda.sh 
+conda activate 'name of your conda environment'
 
-&nbsp; conda activate 'name of your conda environment'
-
-&nbsp; python3 FastAutoAugment/train.py -c confs/efficientnet_l9.yaml --aug fa_reduced_imagenet  --dataroot 'Path of ImageNet on server'
-
+python3 FastAutoAugment/train.py -c confs/efficientnet_l9.yaml --aug fa_reduced_imagenet  --dataroot 'Path of ImageNet on server'
+```
 Note : 
 
 &nbsp; 1. Specify -c confs/efficientnet_l8.yaml -c confs/efficientnet_l7.yaml ...... to begin the other training of EfficientNet-eLite family
