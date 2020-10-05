@@ -1,8 +1,6 @@
 # EfficientNet-eLite: Extremely Lightweight and Efficient CNN Models for Edge Devices by Network Candidate Search
 Pytorch implementation for paper [EfficientNet-eLite](https://arxiv.org/abs/2009.07409) 
 
-EfficientNet-eLite: Extremely Lightweight and Efficient CNN Models for Edge Devices by Network Candidate Search
-
 We purpose a family of Extremely lightweight CNN models by EfficientNet to be effectively scaled down. The following image illustrates the performance of parameter usage and the top-1 accuracy on ImageNet dataset. More details can be found at paper [EfficientNet-eLite](https://arxiv.org/abs/2009.07409) 
 
 ![image](parameter.png)
