@@ -42,9 +42,13 @@ $ bash run.sh
 &nbsp; python3 FastAutoAugment/train.py -c confs/efficientnet_l9.yaml --aug fa_reduced_imagenet  --dataroot 'Path of ImageNet on server'
 
 Note : 
+
 &nbsp; 1. Specify -c confs/efficientnet_l8.yaml -c confs/efficientnet_l7.yaml ...... to begin the other training of EfficientNet-eLite family
+
 &nbsp; 2. --aug fa_reduced_imagenet to select the data audmentation policy (implementation is from [Fast Autoaugmentation](https://arxiv.org/abs/1905.00397))
+
 &nbsp; 3. --dataroot should be configured as the path root of ImageNet dataset with the subfolder consisting train and val.
+
 &nbsp; In the inside folder of train and val, each subfolder has the name of the label and the organization is the same for using ImageFolder from torchvision 
 
 
